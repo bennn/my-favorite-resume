@@ -1,18 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Benjamin Greenman's resume
-%%  - based off Yisong Yue's resume
-%%   - based off work by Michael DeCorte 
-%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-%%
-%% The following code sets up the document formatting
-%%
-
-%this assumes that res_yy.sty is in some path
-\documentstyle[hyperref, margin, line]{res_yy}
+\documentstyle[hyperref, margin, line]{resume}
 \hypersetup{backref,pdfpagemode=Full,colorlinks=true,backref}
 \addtolength{\oddsidemargin}{-0.45in}
 \addtolength{\voffset}{-0.30in}
@@ -20,35 +6,19 @@
 
 \renewcommand{\namefont}{\LARGE\textsc}
 
-
-%%
-%% The following code defines some macros for terms which have raised font
-%% (ie 4\fourth would result 4th with the 'th' raised (superscripted)
-%%
-
+%% Macros
 \def\Cplusplus{{\rm C\raise.5ex\hbox{\small ++}}}
 \def\CSharp{{\rm C\raise.5ex\hbox{\small \#}}}
-% 'st' 'nd' 'rd' 'th' superscripts for numbers
 \def\first{{\raise.5ex\hbox{\small st}}}
 \def\second{{\raise.5ex\hbox{\small nd}}}
 \def\third{{\raise.5ex\hbox{\small rd}}}
 \def\fourth{{\raise.5ex\hbox{\small th}}}
 
-
-
-%%
-%% starting the actual document
-%%
 \begin{document}
 
-%the name in big fonts at the top of resume
-%left aligned
 \name{B\ e\ n\ j\ a\ m\ i\ n\ \ \ \  G\ r\ e\ e\ n\ m\ a\ n\ }
-%% \name{Benjamin  Greenman}
-
-%right aligned
 \address{
-phone: 936.666.1126 \ \ \ \ \ \ 
+phone: 936.666.1126 \hspace{0.5cm}
 email: blg59@cs.cornell.edu
 }
 
@@ -63,7 +33,6 @@ Master or Engineering, Computer Science\\
 Bachelor of Science, GPA 3.47 (2010 \textendash\ 2013)
 
 \textbf{Hudson Valley Community College} \hfill 2009 \textendash\ 2010 \\ 
-%% Bachelor of Science in Computer Science \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 
 GPA 3.78\\
 Phi Theta Kappa National Honor Society\\
 
@@ -82,7 +51,6 @@ Phi Theta Kappa National Honor Society\\
 \employer{\textbf{Research Assistant, Cornell University}}
 \title{Ithaca, NY}
 \location{}
-%% \location{Ithaca, NY}
 \dates{Summer 2013 \textendash \ Present}
 \begin{position}
 Worked with Professor Ross Tate to determine the feasibility of a new construct for object-oriented languages.
@@ -92,9 +60,7 @@ Currently working to prove the decidability of subtyping given the new feature.
 
 \employer{\textbf{Software Engineer, Rentenna Inc.}}
 \title{New York, NY}
-%% \title{Data Architect}
 \location{}
-%% \location{New York, NY}
 \dates{Summer 2012 \textendash\ Present}
 \begin{position}
 Implemented \textsc{rest}ful api for growing startup.
@@ -107,7 +73,6 @@ Gained experience with unit-testing frameworks and a branching Git model.
 \employer{\textbf{Teaching Assistant, Cornell University}}
 \title{Ithaca, NY}
 \location{}
-%% \location{Ithaca, NY}
 \dates{Spring 2012 \textendash\ Present}
 \begin{position}
 Introduced undergraduate students to functional programming.
@@ -146,10 +111,6 @@ Helped manage a staff of approximately 20 teaching assistants.
 %% Synchronized work schedule, recruited and interviewed new employees
 %% \end{position}
 
-%%
-%% This section could also use more formatting, but looks ok, as is
-%%
-
 %% \vfill
 \vspace{1.00cm}
 
@@ -171,32 +132,9 @@ Helped manage a staff of approximately 20 teaching assistants.
 
 \textbf{Libraries and Tools}: Emacs, GIMP, Git, \LaTeX, MongoDB, Scrapy, SQLAlchemy, XPath
 
-%MOAR?
 \textbf{Other}: 35 video game world records, 3\third \ place Pennsylvania State Birling championship
 
 \vspace*{3.00cm}
-
-
-%% \begin{formatb}
-%%   \employer{l}\dates{r}\\
-%%   \body\\
-%% \end{formatb}
-
-%% \section{\textsc{Projects}}
-
-
-%% \section{\textsc{Activities}}
-
-%% \begin{formatb}
-%%   \employer{l}\dates{r}\\
-%%   \body\\
-%% \end{formatb}
-
-%% \employer{\textbf{Cornell Teaching Assistant (TA Excellence Award)}}
-%% \dates{Fall 2006}
-%% \begin{position}
-%% Teaching assistant for new course on social and information networks.
-%% \end{position}
 
 \end{resume}
 \end{document}
