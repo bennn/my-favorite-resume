@@ -15,7 +15,7 @@
 *.aux
 *.bbl
 *.blg
-*.dvi
+#*.dvi
 *.fdb_latexmk
 *.glg
 *.glo
@@ -34,7 +34,7 @@
 *.nlo
 *.out
 *.pdfsync
-*.ps
+#*.ps
 *.snm
 *.synctex.gz
 *.toc
