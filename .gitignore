@@ -1,3 +1,14 @@
+# python
+*.pyc
+
+# temporary files
+*.swp
+*.swo
+*.swn
+*~
+\#*\#
+
+# latex
 *.acn
 *.acr
 *.alg
