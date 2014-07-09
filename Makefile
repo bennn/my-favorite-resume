@@ -1,6 +1,8 @@
 all:
-	xelatex ben.tex
-	latex ben.tex
-	dvips -o ben.ps ben.dvi
-pdf:
-	xelatex ben.tex
+	xelatex ben-resume.tex
+	latex ben-resume.tex
+	dvips -o ben-resume.ps ben-resume.dvi
+cv:
+	xelatex ben-cv.tex
+resume:
+	xelatex ben-resume.tex
