@@ -1,0 +1,116 @@
+\documentclass{article}
+\usepackage[backref,pdfpagemode=Full,backref]{hyperref}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{palatino}
+\usepackage{amssymb}
+\usepackage{fourier-orns}
+
+\topmargin 0pt
+\headheight 0pt
+\headsep 0pt
+\textheight 9in
+\parindent 0pt
+\topmargin 0in
+\oddsidemargin 0pt
+\evensidemargin 0pt
+\marginparwidth 0pt
+\parindent 0pt
+\parskip \baselineskip
+\setcounter{secnumdepth}{0}
+\def\@listI{\leftmargin\leftmargini
+\topsep 0pt 
+\parskip 0pt
+\partopsep 2pt plus 2pt
+\parsep 2pt plus 2pt
+\itemsep \parsep}
+\hoffset 0.2\textwidth
+\pagestyle{empty}
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\voffset}{-0.30in}
+\addtolength{\textwidth}{1.00in} \addtolength{\textheight}{1.50in}
+
+\renewcommand{\maketitle}{
+\hspace{-1.4cm} \textsc{\Large{B~e~n~j~a~m~i~n~~~L~e~e~~~G~r~e~e~n~m~a~n}}
+~\hfill~
+\texttt{\fontseries{m}blg59\,@\,cs.cornell.edu}
+}
+
+\newcommand{\mysection}[1]{\vspace{0.5cm}
+\hspace{-1.3cm}\textsc{\textbf{#1}}~\hrulefill}
+
+\renewcommand{\labelitemi}{\floweroneleft}
+
+\begin{document}
+
+\maketitle
+
+%% \mysection{Contact}
+
+\mysection{Research Interests}
+
+Language Design,~~Type Theory,~~Proofs,~~Programs
+
+\mysection{Education}
+%% remove GPA in T-minus 6 years. Nobody's gonna care after that.
+
+\textbf{Cornell University} \hfill 2013 \textendash\ 2014 \\
+\begin{tabular}{>{\it}r l}
+Degree & Master of Engineering\\
+Major & Computer Science\\
+GPA & 3.52\\
+Advisor & \href{http://www.cs.cornell.edu/~ross/}{Ross Tate}
+\end{tabular}
+
+\textbf{Cornell University} \hfill 2010 \textendash\ 2013\\
+\begin{tabular}{>{\it}r l}
+Degree & Bachelor of Science\\
+Major & Industrial and Labor Relations\\
+Minor & Computer Science\\
+~~~~~GPA & 3.47\\
+\end{tabular}
+
+\textbf{Hudson Valley Community College} \hfill 2009 \textendash\ 2010 \\ 
+\begin{tabular}{>{\it}r l}
+~~~~~GPA & 3.78\\
+\end{tabular}
+
+\mysection{Employment}
+
+\textbf{Cornell University},~~Ithaca NY
+\begin{itemize}[topsep=-0.2cm,itemsep=0.1cm]
+\item \emph{Research Assistant in Programming Languages} \hfill 2013 \textendash\ 2014
+\item \emph{Teaching Assistant for CS 3110} \hfill 2012 \textendash\ 2014
+\end{itemize}
+
+\textbf{Rentenna Inc.},~~New York NY
+\begin{itemize}[topsep=-0.2cm,itemsep=0.1cm]
+\item \emph{Software Engineering Intern} \hfill 2012 \textendash\ 2014
+\end{itemize}
+
+\mysection{Awards} %% \& Grants
+\begin{itemize}[topsep=-0.2cm,itemsep=0.1cm]
+\item \emph{Cornell Teaching Award} \hfill 2013 \textendash\ 2014
+\end{itemize}
+
+%% \mysection{Professional Activities}
+%% \mysection{Students}% hehehehe
+
+\mysection{Publications}
+
+\begin{enumerate}[topsep=-0.2cm,itemsep=0.1cm]
+\item 
+  Ben Greenman, Fabian Muehlboeck, and Ross Tate. \hfill 2014 \\
+  \emph{Getting F-Bounded Polymorphism into Shape}. \\
+  In PLDI '14.
+  Edinburgh, Scotland.
+\end{enumerate}
+
+\mysection{Other}
+
+\begin{itemize}[topsep=-0.2cm,itemsep=0.1cm]
+\item 3rd~place Pennsylvania State Birling Championship \hfill 2013 \textendash\ 2014
+\item 35 video game world records \hfill 2007 \textendash\ 2008
+\end{itemize}
+
+\end{document}
