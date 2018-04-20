@@ -6,6 +6,8 @@
 \usepackage{amssymb}
 \usepackage{fourier-orns}
 \usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\definecolor{light-grey}{gray}{0.90}
 
 \parskip \baselineskip
 
@@ -18,6 +20,7 @@
 \end{center}
 }
 
+
 \newcommand{\mysection}[1]{\vspace{0.5cm}
 \hspace{-1.3cm}\textsc{\textbf{#1}}~\hrulefill}
 \newcommand{\mysubsection}[1]{\hspace{-0.7cm}\textbf{#1}}
@@ -29,6 +32,34 @@
 \maketitle
 
 %% \mysection{Contact}
+
+{\centering\makebox[\textwidth]{%
+  \colorbox{light-grey}{\parbox{\paperwidth}%
+  {\leftskip=1in\rightskip=1in%
+  Disclaimer: the point of this document is to show that my life is not a short list of
+  successes (as the CV might make it seem), but rather a long long list of
+  failures and not-quite-successes. Your mileage may vary.
+
+  \vspace{1ex}
+
+  Inspiration: \href{https://www.princeton.edu/~joha/Johannes\_Haushofer\_CV\_of\_Failures.pdf}{\texttt{\small www.princeton.edu/~joha/Johannes\_Haushofer\_CV\_of\_Failures.pdf}}
+}}}}
+
+%\makebox[\paperwidth]{\colorbox{light-grey}{
+%  \parbox{\textwidth}{
+%  The point of this document is to show that my life is not a short list of
+%  successes (as my CV might make it seem), but rather a long long list of
+%  failures and not-quite-successes. Your mileage may vary.
+%
+%}}}
+
+%\begin{abstract}
+%  The point of this document is to show that my life is not a short list of
+%  successes (as my CV might make it seem), but rather a long long list of
+%  failures and not-quite-successes. Your mileage may vary.
+%
+%  Inspiration for this document: \href{https://www.princeton.edu/~joha/Johannes\_Haushofer\_CV\_of\_Failures.pdf}{\texttt{\small www.princeton.edu/~joha/Johannes\_Haushofer\_CV\_of\_Failures.pdf}}
+%\end{abstract}
 
 
 \mysection{Degree Programs I did not get in to}
@@ -73,9 +104,6 @@
 
 \mysection{Miscellaneous}
 \begin{enumerate}
-\item \emph{PRL Webmaster} \hfill \href{https://github.com/nuprl/website}{Fall 2016 -- Present}
-%\item \emph{GTP Webmaster} \hfill \href{https://github.com/nuprl/gtp.github.io}{Spring 2016 -- Present}
-\item \emph{CCIS Social Hour Czar} \hfill {Fall 2014 -- Spring 2017}
 \item \emph{Distinguished Bartender} \hfill \href{http://conf.researchr.org/home/PLDI-2016}{PLDI 2016}
 \end{enumerate}
 
