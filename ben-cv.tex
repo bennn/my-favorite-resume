@@ -2,7 +2,7 @@
 \usepackage[backref,pdfpagemode=Full,colorlinks=true]{hyperref}
 \usepackage{array}
 \usepackage{enumitem}
-\usepackage{palatino}
+%\usepackage{palatino}
 \usepackage{amssymb}
 \usepackage{fourier-orns}
 \usepackage[margin=1in]{geometry}
@@ -17,14 +17,14 @@
 \\308 West Village H
 \\440 Huntington Avenue
 \\Boston MA 02115
-\\\texttt{\fontseries{m}types\,@\,ccs.neu.edu}
-\\\texttt{\fontseries{m}857.540.5145}
+\\\texttt{types\,@\,ccs.neu.edu}
+\\\texttt{857.540.5145}
 \end{center}
 }
 
 \newcommand{\mysection}[1]{\vspace{0.5cm}
 \hspace{-1.3cm}\textsc{\textbf{#1}}~\hrulefill}
-\newcommand{\mysubsection}[1]{\hspace{-0.7cm}\textbf{#1}}
+\newcommand{\mysubsection}[1]{\hspace{-10ex}\textbf{#1}}
 
 \renewcommand{\labelitemi}{\floweroneleft}
 
@@ -101,25 +101,36 @@ General Studies & \\
 
 \mysection{Service}
 \begin{itemize}
-\item \emph{CCIS Hiring Committee student representative} \hfill {Spring 2018}
-\item \emph{Student Volunteer} \hfill \href{http://conf.researchr.org/home/POPL-2018}{POPL 2018}
-\item \emph{Artifact Evaluation Committee} \hfill \href{https://2017.splashcon.org/track/splash-2017-OOPSLA-Artifacts}{OOPSLA 2017}
-\item \emph{Artifact Evaluation Committee} \hfill \href{https://2017.ecoop.org/track/ecoop-2017-Artifacts}{ECOOP 2017}
-\item \emph{Student Volunteer} \hfill \href{https://www.acm.org/turing-award-50/conference}{Turing Celebration 2017}
-\item \emph{Artifact Evaluation Committee} \hfill \href{http://2016.splashcon.org/track/splash-2016-artifacts}{OOPSLA 2016}
-\item \emph{Student Volunteer} \hfill \href{http://2016.ecoop.org/}{ECOOP 2016}
-\item \emph{Student Volunteer} \hfill \href{http://conf.researchr.org/home/PLDI-2016}{PLDI 2016}
-\item \emph{Student Volunteer} \hfill \href{http://conf.researchr.org/home/POPL-2016}{POPL 2016}
-\item \emph{GTP Webmaster} \hfill \href{https://github.com/nuprl/gtp.github.io}{Spring 2016 -- Present}
-\item \emph{PRL Webmaster} \hfill \href{https://github.com/nuprl/website}{Fall 2016 -- Present}
-\item \emph{Student Volunteer} \hfill \href{http://icfpconference.org/icfp2015/}{ICFP 2015}
-\item \emph{Student Volunteer} \hfill \href{http://2015.ecoop.org/}{ECOOP 2015}
-\item \emph{CCIS Social Hour Czar} \hfill {Fall 2014 -- Spring 2017}
+  \item \emph{PRL Retreat Organizer} \hfill {Fall 2018 -- Spring 2019}
+  \item \emph{PRL External Speaker Selection Committee} \hfill {Fall 2018 -- Spring 2019}
+  \item \emph{CCIS Hiring Committee student representative} \hfill {Spring 2018}
+  \item \emph{Student Volunteer} \hfill \href{http://conf.researchr.org/home/POPL-2018}{POPL 2018}
+  \item \emph{Artifact Evaluation Committee} \hfill \href{https://2017.splashcon.org/track/splash-2017-OOPSLA-Artifacts}{OOPSLA 2017}
+  \item \emph{Artifact Evaluation Committee} \hfill \href{https://2017.ecoop.org/track/ecoop-2017-Artifacts}{ECOOP 2017}
+  \item \emph{Student Volunteer} \hfill \href{https://www.acm.org/turing-award-50/conference}{Turing Celebration 2017}
+  \item \emph{Artifact Evaluation Committee} \hfill \href{http://2016.splashcon.org/track/splash-2016-artifacts}{OOPSLA 2016}
+  \item \emph{Student Volunteer} \hfill \href{http://2016.ecoop.org/}{ECOOP 2016}
+  \item \emph{Student Volunteer} \hfill \href{http://conf.researchr.org/home/PLDI-2016}{PLDI 2016}
+  \item \emph{Student Volunteer} \hfill \href{http://conf.researchr.org/home/POPL-2016}{POPL 2016}
+  \item \emph{GTP Webmaster} \hfill \href{https://github.com/nuprl/gtp.github.io}{Spring 2016 -- Spring 2019}
+  \item \emph{PRL Webmaster} \hfill \href{https://github.com/nuprl/website}{Fall 2016 -- Fall 2018}
+  \item \emph{Student Volunteer} \hfill \href{http://icfpconference.org/icfp2015/}{ICFP 2015}
+  \item \emph{Student Volunteer} \hfill \href{http://2015.ecoop.org/}{ECOOP 2015}
+  \item \emph{CCIS Social Hour Czar} \hfill {Fall 2014 -- Spring 2017}
 \end{itemize}
 
 
 \mysection{Publications}
 \begin{enumerate}
+\item
+  Preston Tunnell Wilson, Ben Greenman, Justin Pombrio, Shriram Krishnamurthi. \hfill DLS 2018 \\
+  \emph{The Behavior of Gradual Types: A User Study} \\
+  Boston, MA.
+\item
+  Daniel Feltey, Ben Greenman, Christophe Scholliers, Robert Bruce Findler, \hfill OOPSLA 2018 \\
+  and Vincent St. Amour. \\
+  \emph{Collapsible Contracts: Fixing a Pathology of Gradual Typing} \\
+  Boston, MA.
 \item
   Ben Greenman, Matthias Felleisen. \hfill ICFP 2018 \\
   \emph{A Spectrum of Type Soundness and Performance} \\
@@ -129,9 +140,9 @@ General Studies & \\
   \emph{On the Cost of Type-Tag Soundness} \\
   Los Angeles, CA.
 \item
-  Sam Tobin-Hochstadt, Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, \\
+  Sam Tobin-Hochstadt, Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, \hfill SNAPL 2017 \\
   Ben Greenman, Andrew M. Kent, Vincent St-Amour, T. Stephen Strickland, \\
-  and Asumu Takikawa. \hfill SNAPL 2017 \\
+  and Asumu Takikawa. \\
   \emph{Migratory Typing: 10 Years Later} \\
   Monterey, CA.
 \item
