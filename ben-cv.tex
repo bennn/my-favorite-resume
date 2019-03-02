@@ -23,8 +23,8 @@
 }
 
 \newcommand{\mysection}[1]{\vspace{0.5cm}
-\hspace{-1.3cm}\textsc{\textbf{#1}}~\hrulefill}
-\newcommand{\mysubsection}[1]{\hspace{-10ex}\textbf{#1}}
+\noindent\textsc{\textbf{#1}}~\hrulefill}
+\newcommand{\mysubsection}[1]{\noindent\textbf{#1}}
 
 \renewcommand{\labelitemi}{\floweroneleft}
 
@@ -123,16 +123,18 @@ General Studies & \\
 
 
 \mysection{Publications}
+
+\mysubsection{Journal}
 \begin{enumerate}
 \item
   Ben Greenman, Asumu Takikawa, Max S. New, Daniel Feltey, Robert Bruce Findler, \hfill JFP 2019 \\
   Jan Vitek, and Matthias Felleisen. \\
   \emph{How to Evaluate the Performance of Gradual Type Systems} \\
   Cambridge, UK.
-\item
-  Preston Tunnell Wilson, Ben Greenman, Justin Pombrio, Shriram Krishnamurthi. \hfill DLS 2018 \\
-  \emph{The Behavior of Gradual Types: A User Study} \\
-  Boston, MA.
+\end{enumerate}
+
+\mysubsection{Conference}
+\begin{enumerate}
 \item
   Daniel Feltey, Ben Greenman, Christophe Scholliers, Robert Bruce Findler, \hfill OOPSLA 2018 \\
   and Vincent St. Amour. \\
@@ -142,10 +144,6 @@ General Studies & \\
   Ben Greenman, Matthias Felleisen. \hfill ICFP 2018 \\
   \emph{A Spectrum of Type Soundness and Performance} \\
   St. Louis, MO.
-\item
-  Ben Greenman, Zeina Migeed. \hfill PEPM 2018 \\
-  \emph{On the Cost of Type-Tag Soundness} \\
-  Los Angeles, CA.
 \item
   Sam Tobin-Hochstadt, Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, \hfill SNAPL 2017 \\
   Ben Greenman, Andrew M. Kent, Vincent St-Amour, T. Stephen Strickland, \\
@@ -162,14 +160,26 @@ General Studies & \\
    \emph{Is Sound Gradual Typing Dead?} \\
   St. Petersburg, Florida.
 \item
+  Ben Greenman, Fabian Muehlboeck, and Ross Tate. \hfill PLDI 2014 \\
+  \emph{Getting F-Bounded Polymorphism into Shape}. \\
+  Edinburgh, Scotland.
+\end{enumerate}
+
+\mysubsection{Workshop}
+\begin{enumerate}
+\item
+  Preston Tunnell Wilson, Ben Greenman, Justin Pombrio, Shriram Krishnamurthi. \hfill DLS 2018 \\
+  \emph{The Behavior of Gradual Types: A User Study} \\
+  Boston, MA.
+\item
+  Ben Greenman, Zeina Migeed. \hfill PEPM 2018 \\
+  \emph{On the Cost of Type-Tag Soundness} \\
+  Los Angeles, CA.
+\item
   Asumu Takikawa, Daniel Feltey, Ben Greenman, Max S. New, Jan Vitek, \hfill STOP 2015 \\
    and Matthias Felleisen. \\
    \emph{Position Paper: Performance Evaluation for Gradual Typing}. \\
   Prague, Czech Republic.
-\item
-  Ben Greenman, Fabian Muehlboeck, and Ross Tate. \hfill PLDI 2014 \\
-  \emph{Getting F-Bounded Polymorphism into Shape}. \\
-  Edinburgh, Scotland.
 \end{enumerate}
 
 \mysection{Invited Talks}
