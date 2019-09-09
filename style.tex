@@ -1,0 +1,25 @@
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{enumitem}
+%\usepackage{palatino}
+\usepackage{amssymb}
+\usepackage{fourier-orns}
+\usepackage[margin=1in]{geometry}
+
+\definecolor{light-grey}{gray}{0.90}
+\definecolor[named]{ACMPurple}{cmyk}{0.55,1,0,0.15}
+
+\hypersetup{colorlinks,
+  linkcolor=ACMPurple,
+  urlcolor=ACMPurple}
+
+\parskip \baselineskip
+
+\newcommand{\mysection}[1]{\vspace{0.5cm} \noindent\textsc{\textbf{#1}}~\hrulefill}
+\newcommand{\mysubsection}[1]{\noindent\textbf{#1}}
+\newcommand{\datespan}[2]{#1~\textendash{}~#2}
+\newcommand{\datesince}[1]{since~#1}
+\renewcommand{\labelitemi}{\(\cdot\)}
+\setlist[itemize]{topsep=0pt}
+
