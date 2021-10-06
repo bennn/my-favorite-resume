@@ -8,8 +8,17 @@ all:
 	xelatex fail-cv.tex
 	latex fail-cv.tex
 	dvips -o fail-cv.ps fail-cv.dvi
-cv:
+
+cv: bencv failcv procv
+
+procv:
+	xelatex pro-cv.tex
+
+bencv:
 	xelatex ben-cv.tex
+
+failcv:
 	xelatex fail-cv.tex
+
 resume:
 	xelatex ben-resume.tex
