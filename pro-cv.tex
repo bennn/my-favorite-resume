@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[11pt]{article}
 
 % TODO
 % - change font, especially for italics
@@ -14,8 +14,8 @@
 \\CIT building
 \\115 Waterman St
 \\Providence RI 02912
-\\\texttt{benjamin.l.greenman\,@\,gmail.com}
-\\\texttt{781-924-9989}
+\\\texttt{\footnotesize benjamin.l.greenman\,@\,gmail.com}
+\\\texttt{\footnotesize 781-924-9989}
 \end{center}
 }
 
@@ -25,7 +25,19 @@
 
 \mysection{Research Interests}
 
-Migratory Typing,~~Language Design,~~Type Theory,~~Constructions
+\newcommand{\interestpar}[2]{\noindent\emph{#1}\/: #2}
+
+\interestpar{General interests}{
+Language design
+issues regarding
+proofs, performance, and people.
+What guarantees does the language offer,
+how efficiently does it run,
+and to what extent does it support users' goals?
+}
+
+\interestpar{Specific interests}{Migratory Typing,~~Multi--Language Systems,~~Data Visualization,~~Type Theory}
+
 
 \mysection{Education}
 \begin{itemize}
@@ -74,7 +86,6 @@ General Studies & \\
 \end{itemize}
 
 
-\newpage
 \mysection{Teaching}
 \begin{itemize}
   \item \tainfo{Organizer}{\href{http://cs.brown.edu/courses/csci2950-x/2021/}{Topics in PL and Systems: Tables and Humans}}{2020}
@@ -87,7 +98,7 @@ General Studies & \\
 
 \mysection{Students Supervised}
 \begin{itemize}
-  \item \stinfo{Quianfan Chen}{B.S.}{Brown University}{\datespan{2020}{ongoing}}
+  \item \stinfo{Qianfan Chen}{Sc.B.}{Brown University}{\datespan{2020}{ongoing}}
   \item \stinfo{Kuang-Chen Lu}{Ph.D.}{Brown University}{\datespan{2020}{ongoing}}
   \item \stinfo{Milo Davis}{B.S.}{Northeastern University}{2017}
   \item \stinfo{Zeina Migeed}{B.S.}{Northeastern University}{\datespan{2016}{2017}}
@@ -108,7 +119,7 @@ General Studies & \\
   \item {Artifact Evaluation Committee Co-Chair} \hfill \href{https://2022.splashcon.org}{OOPSLA 2022}
   \item {Program Committee} \hfill \href{https://icfp21.sigplan.org/committee/icfp-2021-papers-program-committee}{ICFP 2021}
   \item {Program Committee} \hfill \href{https://pldi21.sigplan.org/committee/pldi-2021-papers-program-committee}{PLDI 2021}
-  \item {Reviewer} \hfill \href{https://www.cambridge.org/core/news/jfp-special-issue-on-gradual-typing}{JFP Special Issue on Gradual Typing}
+  %% \item {Reviewer} \hfill \href{https://www.cambridge.org/core/news/jfp-special-issue-on-gradual-typing}{JFP Special Issue on Gradual Typing}
   \item {Artifact Evaluation Committee} \hfill \href{https://2017.ecoop.org/track/ecoop-2017-Artifacts}{ECOOP 2017}
   \item {Artifact Evaluation Committee} \hfill \href{https://2017.splashcon.org/track/splash-2017-OOPSLA-Artifacts}{OOPSLA 2017}
   \item {Artifact Evaluation Committee} \hfill \href{http://2016.splashcon.org/track/splash-2016-artifacts}{OOPSLA 2016}
@@ -116,27 +127,6 @@ General Studies & \\
 
 % declined PC: OOPSLA 2022, PLDI 2020
 % declined minor PC: HATRA 2021, DLS 2021
-
-
-\mysection{Volunteering}
-\begin{itemize}
-  \item {Bootstrap Professional Development} \hfill {Summer 2021}\\
-        Teaching Assistant
-  \item {Housing Chair} \hfill \href{https://2018.splashcon.org/committee/splash-2018-organizing-committee}{SPLASH 2018}
-  \item {Northeastern CCIS Hiring Committee} \hfill {Spring 2018}\\
-    Student Representative
-  \item {PRL Offsite} \hfill {Fall 2019}\\
-    Organizer
-  \item \href{https://www.eachoneteachone.is}{Each One Teach One} \hfill {Fall 2015}\\
-    AP Java Tutor
-  \item {Student Volunteer} \hfill \href{https://2019.splashcon.org/}{OOPSLA 2019}; \href{https://www.acm.org/turing-award-50/conference}{Turing Celebration 2017}; \href{http://conf.researchr.org/home/POPL-2016}{POPL 2016}, \href{http://conf.researchr.org/home/POPL-2018}{2018};\\
-    {\hbox{}\hfill{} \href{http://conf.researchr.org/home/PLDI-2016}{PLDI 2016}; \href{http://icfpconference.org/icfp2015/}{ICFP 2015}, \href{https://icfp18.sigplan.org/committee/icfp-2018-organizing-committee}{2018}; \href{http://2015.ecoop.org/}{ECOOP 2015}, \href{http://2016.ecoop.org/}{2016}}
-  \item {Ithaca Media Arts} \hfill {Summer 2012}\\
-    Teacher, LEGO Mindstorms Camp
-  \item {Cornell Math Explorers} \hfill {Winter 2011}\\
-    Module Designer
-
-\end{itemize}
 
 
 \mysection{Publications}
@@ -213,6 +203,27 @@ General Studies & \\
   \item
     \href{https://2018.splashcon.org/track/grace-2018-papers}{GRACE Workshop} \hfill 2018\\
     \emph{Three Approaches to Gradual Typing}
+\end{itemize}
+
+
+\mysection{Volunteering}
+\begin{itemize}
+  \item {Bootstrap Professional Development} \hfill {Summer 2021}\\
+        Teaching Assistant
+  \item {Housing Chair} \hfill \href{https://2018.splashcon.org/committee/splash-2018-organizing-committee}{SPLASH 2018}
+  \item {Northeastern CCIS Hiring Committee} \hfill {Spring 2018}\\
+    Student Representative
+  \item {PRL Offsite} \hfill {Fall 2019}\\
+    Organizer
+  \item \href{https://www.eachoneteachone.is}{Each One Teach One} \hfill {Fall 2015}\\
+    AP Java Tutor
+  \item {Student Volunteer} \hfill \href{https://2019.splashcon.org/}{OOPSLA 2019}; \href{https://www.acm.org/turing-award-50/conference}{Turing Celebration 2017}; \href{http://conf.researchr.org/home/POPL-2016}{POPL 2016}, \href{http://conf.researchr.org/home/POPL-2018}{2018};\\
+    {\hbox{}\hfill{} \href{http://conf.researchr.org/home/PLDI-2016}{PLDI 2016}; \href{http://icfpconference.org/icfp2015/}{ICFP 2015}, \href{https://icfp18.sigplan.org/committee/icfp-2018-organizing-committee}{2018}; \href{http://2015.ecoop.org/}{ECOOP 2015}, \href{http://2016.ecoop.org/}{2016}}
+  \item {Ithaca Media Arts} \hfill {Summer 2012}\\
+    Teacher, LEGO Mindstorms Camp
+  \item {Cornell Math Explorers} \hfill {Winter 2011}\\
+    Module Designer
+
 \end{itemize}
 
 
