@@ -9,7 +9,10 @@ all:
 	latex fail-cv.tex
 	dvips -o fail-cv.ps fail-cv.dvi
 
-cv: bencv failcv procv
+cv: failcv procv shortcv
+
+shortcv:
+	xelatex short-cv.tex
 
 procv:
 	xelatex pro-cv.tex

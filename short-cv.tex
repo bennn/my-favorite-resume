@@ -1,47 +1,20 @@
 \documentclass[11pt]{article}
 
-% TODO
-% - change font, especially for italics
-% - add TA roles
-% - compress PC roles
-% - linebreak in gradual soundness
-% - add LTL
-
 \input{style}
+\hypersetup{colorlinks=false}
 
 \renewcommand{\maketitle}{
 \begin{center}
   {\large{Ben~~Greenman}}
 \vspace{0.1cm}
-\\Brown University
-\\CIT building
-\\115 Waterman St
-\\Providence RI 02912
-\\\texttt{\footnotesize benjamin.l.greenman\,@\,gmail.com}
-\\\texttt{\footnotesize 781-924-9989}
+\\University of Utah
 \end{center}
+\vspace{-1.5cm}
 }
 
 \begin{document}
 
 \maketitle
-
-\mysection{Research Interests}
-
-\newcommand{\interestpar}[2]{\noindent\emph{#1}\/: #2}
-\newcommand{\isep}{,~~}
-
-\interestpar{General interests}{
-Language design
-issues regarding
-proofs, performance, and people.
-What guarantees can a language offer,
-how efficiently can it run,
-and to what extent does it help users meet their goals?
-}
-
-\interestpar{Specific interests}{Migratory Typing\isep{}Language Interoperability\isep{}Type Theory\isep{}Formal Methods}
-
 
 \mysection{Education}
 \begin{itemize}
@@ -93,26 +66,6 @@ General Studies & \\
 \end{itemize}
 
 
-\mysection{Teaching}
-\begin{itemize}
-  \item \tainfo{Organizer}{\href{http://cs.brown.edu/courses/csci2950-x/2021/}{Topics in PL and Systems: Tables and Humans}}{2021}
-  \item \tainfo{Teaching Assistant}{\href{http://www.ccs.neu.edu/home/matthias/4500-f18/index.html}{Software Development}}{2018, 2020}
-  \item \tainfo{Teaching Assistant}{\href{https://course.ccs.neu.edu/cs2500f16/}{Fundamentals I (Computing and Programming)}}{2016}
-  \item \tainfo{Teaching Assistant}{\href{https://course.ccs.neu.edu/cs3500sp16/}{Object-Oriented Design}}{2016}
-  \item \tainfo{Teaching Assistant}{\href{http://www.cs.cornell.edu/courses/cs3110/2012sp/}{Functional Programming and Data Structures}}{\datespan{2012}{2014}}
-\end{itemize}
-
-
-\mysection{Students Supervised}
-\begin{itemize}
-  \item \stinfo{Taylor Allred}{M.S.}{University of Utah}{\datespan{2022}{ongoing}}
-  \item \stinfo{Siddhartha Prasad}{Ph.D.}{Brown University}{\datespan{2022}{ongoing}}
-  \item \stinfo{Qianfan Chen}{Sc.B. with Honors [\href{https://cs.brown.edu/research/pubs/theses/ugrad/2022/chen.qianfan.pdf}{thesis}]}{Brown University}{\datespan{2021}{2022}}
-  \item \stinfo{Kuang-Chen Lu}{Ph.D.}{Brown University}{\datespan{2021}{2022}}
-  \item \stinfo{Milo Davis}{B.S.}{Northeastern University}{2017}
-  \item \stinfo{Zeina Migeed}{B.S.}{Northeastern University}{\datespan{2016}{2017}}
-\end{itemize}
-
 \mysection{Awards}
 \begin{itemize}
   \item \href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=2227863&HistoricalAwards=false}{NSF SHF: Small: Little Tricky Logics} \hfill \datespan{2023}{2025}
@@ -120,28 +73,22 @@ General Studies & \\
   \item \href{https://cifellows2020.org}{CRA/CCC/NSF CI Fellowship} \hfill \datespan{2021}{2023}
   \item {SIGPLAN Student Scholarship to: \turing{}} \hfill 2017
   \item Northeastern CCIS Graduate Community Service Award \hfill 2016
-  \item Cornell CS Teaching Award \hfill 2014
-  \item Cornell CS Teaching Award \hfill 2013
+  \item Cornell CS Teaching Award \hfill 2014, 2013
 \end{itemize}
 
 
 \mysection{Professional Service}
 \begin{itemize}
-  \item {Co-Chair of Artifact Evaluation Committee \& ERC} \hfill \href{https://2023.splashcon.org}{OOPSLA 2023}
-  \item {Program Committee} \hfill \href{https://trendsfp.github.io/}{TFP 2023}
-  \item {Program Committee} \hfill \href{https://2022.splashcon.org/home/hatra-2022}{HATRA 2022}
-  \item {Program Committee} \hfill \href{https://2022.splashcon.org/track/dls-2022-papers}{DLS 2022}
-  \item {Co-Chair of Artifact Evaluation Committee \& ERC} \hfill \href{https://2022.splashcon.org}{OOPSLA 2022}
-  \item {Program Committee} \hfill \href{https://icfp21.sigplan.org/committee/icfp-2021-papers-program-committee}{ICFP 2021}
-  \item {Program Committee} \hfill \href{https://pldi21.sigplan.org/committee/pldi-2021-papers-program-committee}{PLDI 2021}
+  \item {Co-Chair of Artifact Evaluation Committee \& ERC} \hfill \href{https://2023.splashcon.org}{OOPSLA 2023}, \href{https://2022.splashcon.org}{OOPSLA 2022}
+  \item {Program Committee} \hfill
+    \href{https://trendsfp.github.io/}{TFP 2023},
+    \href{https://2022.splashcon.org/home/hatra-2022}{HATRA 2022},
+    \href{https://2022.splashcon.org/track/dls-2022-papers}{DLS 2022},
+    \href{https://icfp21.sigplan.org/committee/icfp-2021-papers-program-committee}{ICFP 2021},
+    \href{https://pldi21.sigplan.org/committee/pldi-2021-papers-program-committee}{PLDI 2021}
   %% \item {Reviewer} \hfill \href{https://www.cambridge.org/core/news/jfp-special-issue-on-gradual-typing}{JFP Special Issue on Gradual Typing}
-  \item {Artifact Evaluation Committee} \hfill \href{https://2017.ecoop.org/track/ecoop-2017-Artifacts}{ECOOP 2017}
-  \item {Artifact Evaluation Committee} \hfill \href{https://2017.splashcon.org/track/splash-2017-OOPSLA-Artifacts}{OOPSLA 2017}
-  \item {Artifact Evaluation Committee} \hfill \href{http://2016.splashcon.org/track/splash-2016-artifacts}{OOPSLA 2016}
+  \item {Artifact Evaluation Committee} \hfill \href{https://2017.ecoop.org/track/ecoop-2017-Artifacts}{ECOOP 2017}, \href{https://2017.splashcon.org/track/splash-2017-OOPSLA-Artifacts}{OOPSLA 2017}, \href{http://2016.splashcon.org/track/splash-2016-artifacts}{OOPSLA 2016}
 \end{itemize}
-
-% declined PC: OOPSLA 2022, PLDI 2020
-% declined minor PC: HATRA 2021, DLS 2021
 
 
 \mysection{Publications}
@@ -215,14 +162,6 @@ General Studies & \\
   \emph{Getting F-Bounded Polymorphism into Shape}
 \end{itemize}
 
-\mysubsection{Workshop}
-\begin{itemize}
-\item
-  Asumu Takikawa, Daniel Feltey, Ben Greenman, Max S. New, Jan Vitek, \hfill \href{https://2015.ecoop.org/track/STOP2015}{STOP 2015} \\
-   and Matthias Felleisen. \\
-   \emph{Position Paper: Performance Evaluation for Gradual Typing}
-\end{itemize}
-
 
 \mysection{Invited Talks}
 \begin{itemize}
@@ -240,6 +179,17 @@ General Studies & \\
   \item
     \href{https://2018.splashcon.org/track/grace-2018-papers}{GRACE Workshop} \hfill 2018\\
     \emph{Three Approaches to Gradual Typing}
+\end{itemize}
+
+
+\mysection{Students Supervised}
+\begin{itemize}
+  \item \stinfo{Taylor Allred}{M.S.}{University of Utah}{\datespan{2022}{ongoing}}
+  \item \stinfo{Siddhartha Prasad}{Ph.D.}{Brown University}{\datespan{2022}{ongoing}}
+  \item \stinfo{Qianfan Chen}{Sc.B. with Honors [\href{https://cs.brown.edu/research/pubs/theses/ugrad/2022/chen.qianfan.pdf}{thesis}]}{Brown University}{\datespan{2021}{2022}}
+  \item \stinfo{Kuang-Chen Lu}{Ph.D.}{Brown University}{\datespan{2021}{2022}}
+  \item \stinfo{Milo Davis}{B.S.}{Northeastern University}{2017}
+  \item \stinfo{Zeina Migeed}{B.S.}{Northeastern University}{\datespan{2016}{2017}}
 \end{itemize}
 
 
@@ -262,6 +212,5 @@ General Studies & \\
     Module Designer
 
 \end{itemize}
-
 
 \end{document}
