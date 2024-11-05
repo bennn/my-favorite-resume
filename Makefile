@@ -17,6 +17,9 @@ shortcv:
 procv:
 	xelatex procv.tex
 
+rptcv:
+	xelatex rptcv.tex
+
 bencv:
 	xelatex ben-cv.tex
 
