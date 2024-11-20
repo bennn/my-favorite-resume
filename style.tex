@@ -5,6 +5,7 @@
 \usepackage{amssymb}
 \usepackage{fourier-orns}
 \usepackage[margin=1in]{geometry}
+\usepackage{etoolbox}
 
 %\usepackage{palatino}
 \usepackage{inconsolata}
@@ -22,7 +23,7 @@
 \parskip \baselineskip
 
 \newcommand{\mysection}[1]{\vspace{0.5cm} \noindent\textsc{\textbf{#1}}~\hrulefill}
-\newcommand{\mysubsection}[1]{\noindent\textbf{#1}}
+\newcommand{\mysubsection}[1]{\noindent\textsc{\textbf{#1}}}
 \newcommand{\datespan}[2]{#1~\textendash{}~#2}
 \newcommand{\datesince}[1]{since~#1}
 \renewcommand{\labelitemi}{\raisebox{0.4ex}{\tiny\(\bullet\)}}
@@ -32,4 +33,17 @@
 \newcommand{\tainfo}[3]{#2 \hfill #3\\ #1}
 
 \newcommand{\turing}{\href{https://www.acm.org/turing-award-50}{{50 Years of the ACM A.M. Turing Award}}}
+
+%% \let\rptmode\relax
+\newcommand{\ifrpt}[2]{\ifdef{\rptmode}{#1}{#2}}
+\newcommand{\whenrpt}[1]{\ifrpt{#1}{}}
+\newcommand{\unlessrpt}[1]{\ifrpt{}{#1}}
+
+\newcommand{\uust}[1]{#1\whenrpt{$\,^{UU}$}}
+\newcommand{\acceptrate}[1]{\whenrpt{\emph{\pct{#1} accept}}}
+
+\newcommand{\interestpar}[2]{\noindent\emph{#1}\/: #2}
+\newcommand{\isep}{,~~}
+\newcommand{\pct}[1]{$#1\,\%$}
+\newcommand{\zerowidth}[1]{\makebox[0pt][l]{#1}}
 

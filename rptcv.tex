@@ -2,11 +2,7 @@
 
 % TODO
 % - change font, especially for italics
-% - add TA roles
 % - contact Programming 6 7 8 for accept rates
-
-% TODO list organization, important for rpt
-% https://2023.splashcon.org/committee/splash-2023-organizing-committee
 
 \input{style}
 
@@ -36,9 +32,6 @@
 
 \mysection{Research Interests}
 
-\newcommand{\interestpar}[2]{\noindent\emph{#1}\/: #2}
-\newcommand{\isep}{,~~}
-\newcommand{\pct}[1]{$#1\,\%$}
 
 \interestpar{General interests}{
 Language design
@@ -64,13 +57,19 @@ and to what extent do they help users meet their goals?
   \item \emph{Assistant Professor of Computer Science}, {University of Utah} \hfill \datespan{July 2023}{ongoing}
   \item \emph{Postdoctoral Researcher}, {Brown University} \hfill \datespan{2021}{2023}
     \\ \emph{supported by the \href{https://cifellows2020.org/}{CIFellows 2020} program}
+    \unlessrpt{\\ \emph{Mentor: \href{https://cs.brown.edu/~sk}{Shriram Krishnamurthi}}}
   \item \emph{Ph.D. in Computer Science}, Northeastern University \hfill \datespan{2014}{2020}
+    \unlessrpt{\\ \emph{Advisor: \href{http://ccs.neu.edu/home/matthias}{Matthias Felleisen}}}
+    \unlessrpt{\\ \emph{Thesis: \href{http://ccs.neu.edu/home/types/resources/pdf/g-dissertation-2020.pdf}{Deep and Shallow Types}}}
   \item \emph{M. Eng. in Computer Science}, Cornell University \hfill \datespan{2013}{2014}
+    \unlessrpt{\\ \emph{Advisor: \href{http://www.cs.cornell.edu/~ross/}{Ross Tate}}}
+  \unlessrpt{\item \emph{Intern Programmer}, Rentenna Inc. \hfill \datespan{2012}{2014}}
   \item \emph{B.S. in Industrial and Labor Relations (ILR)}, Cornell University \hfill \datespan{2010}{2013}
     \\ \emph{Minor in Computer Science}
   \item \emph{General studies}, {Hudson Valley Community College} \hfill \datespan{2009}{2010}
     \\ \emph{toward a guaranteed transfer to Cornell ILR}
 \end{itemize}
+
 
 \mysection{Honors and Awards}
 
@@ -92,18 +91,19 @@ and to what extent do they help users meet their goals?
 
 No external funding as of November 2024.
 
+\whenrpt{
 \begin{itemize}
   \item NSF SHF: Medium: Language-Oriented Programming Without All the Parentheses \hfill Submitted
     \\ PI Flatt, Co-PIs Findler (Northwestern) \& Greenman \hfill  October 2024
   \item NSF FMitF: Track I: Formal Methods for UTM Safety and Contingency Handling \hfill Declined
     \\ PI Henderson, Co-PIs Garcia \& Greenman
 \end{itemize}
-
+}
 
 
 \mysection{Publications}
 
-\noindent\emph{[$\,^{UU}$ indicates U. Utah student supervised by Greenman]}
+\whenrpt{\noindent\emph{[\uust{} indicates U. Utah student supervised by Greenman]}}
 
 \mysubsection{Journal}
 \begin{itemize}
@@ -116,109 +116,109 @@ No external funding as of November 2024.
   \emph{How to Evaluate the Performance of Gradual Type Systems}
 \end{itemize}
 
-\mysubsection{Conference, Symposium, and Hybrid Conference / Journal}
+\mysubsection{Conference, Symposium, and Similar}
 \begin{itemize}
 \item
-  Ashton Wiersdorf$^{UU}$, Stephen Chang, Matthias Felleisen, and Ben Greenman \hfill \href{https://2024.ecoop.org/}{ECOOP 2024} \\
-    \emph{Type Tailoring} \hfill \emph{\pct{42} accept}
+  \uust{Ashton Wiersdorf}, Stephen Chang, Matthias Felleisen, and Ben Greenman \hfill \href{https://2024.ecoop.org/}{ECOOP 2024} \\
+    \emph{Type Tailoring} \hfill \acceptrate{42}
 \item
   Ben Greenman, Siddhartha Prasad, Antonio Di Stasio, Shufang Zhu, \hfill \href{https://www.fm24.polimi.it/}{FM 2024} \\
   Giuseppe De Giacomo, Shriram Krishnamurthi, Marco Montali, Tim Nelson, and Milda Zizyte \\
-    \emph{Misconceptions in Finite-Trace and Infinite-Trace Linear Temporal Logic} \hfill \emph{\pct{25} accept}
+    \emph{Misconceptions in Finite-Trace and Infinite-Trace Linear Temporal Logic} \hfill \acceptrate{25}
 \item
   {Tim Nelson}, {Ben Greenman}, {Siddhartha Prasad}, {Tristan Dyer}, {Ethan Bove},
     \hfill \href{https://2024.splashcon.org/track/splash-2024-oopsla}{OOPSLA 2024} \\
   {Qianfan Chen}, {Charles Cutting}, {Thomas Del Vecchio}, {Sidney LeVine}, {Julianne Rudner}, \\
   {Ben Ryjikov}, {Alexander Varga}, {Andrew Wagner}, {Luke West}, and {Shriram Krishnamurthi} \\
-    \emph{Forge: A Tool and Language for Teaching Formal Methods} \hfill \emph{\pct{?} accept}
+    \emph{Forge: A Tool and Language for Teaching Formal Methods} \hfill \acceptrate{?}
 \item
   Ben Greenman, Alan Jeffrey, Shriram Krishnamurthi, and Mitesh Shah \hfill \href{https://2024.programming-conference.org/}{Programming 8.3, 2024} \\
-  \emph{Privacy-Respecting Type Error Telemetry at Scale} \hfill \emph{\pct{?} accept}
+  \emph{Privacy-Respecting Type Error Telemetry at Scale} \hfill \acceptrate{?}
 \item
   Siddhartha Prasad, Ben Greenman, Tim Nelson, and Shriram Krishnamurthi \hfill \href{https://2024.programming-conference.org/}{Programming 8.2, 2024} \\
-  \emph{Conceptual Mutation Testing for Student Programming Misconceptions} \hfill \emph{\pct{?} accept}
+  \emph{Conceptual Mutation Testing for Student Programming Misconceptions} \hfill \acceptrate{?}
 \item
   Siddhartha Prasad, Ben Greenman, Tim Nelson, \hfill \href{https://comped.acm.org/call-for-participation-2/}{CompEd, December 2023} \\
       and Shriram Krishnamurthi \\
-    \emph{Generating Programs Trivially: Student Use of Large Language Models} \hfill \emph{\pct{35} accept}
+    \emph{Generating Programs Trivially: Student Use of Large Language Models} \hfill \acceptrate{35}
 \item
   Ben Greenman, Matthias Felleisen, and Christos Dimoulas \hfill \href{https://2023.splashcon.org/track/splash-2023-oopsla}{OOPSLA, October 2023} \\
-  \emph{How Profilers Can Help Navigate Type Migration} \hfill \emph{\pct{38} accept}
+  \emph{How Profilers Can Help Navigate Type Migration} \hfill \acceptrate{38}
 \item
   Matthew Flatt, Taylor Allred, Nia Angle, Stephen De Gabrielle, \hfill \href{https://2023.splashcon.org/track/splash-2023-oopsla}{OOPSLA, October 2023} \\
   Robert Findler, Jack Firth, Kiran Gopinathan, Ben Greenman, Siddhartha Kasivajhula,
   Alex Knauth, Jay McCarthy, Sam Phillips, Sorawee Porncharoenwase, Jens Axel Søgaard, and Sam Tobin-Hochstadt \\
-  \emph{Rhombus: A New Spin on Macros Without All The Parentheses} \hfill \emph{\pct{38} accept}
+  \emph{Rhombus: A New Spin on Macros Without All The Parentheses} \hfill \acceptrate{38}
 \item
   Lukas Lazarek, Ben Greenman, Matthias Felleisen, and Christos Dimoulas \hfill \href{https://icfp23.sigplan.org/}{ICFP, August 2023} \\
-  \emph{How to Evaluate Blame for Gradual Types, Part 2} \hfill \emph{\pct{22} accept}
+  \emph{How to Evaluate Blame for Gradual Types, Part 2} \hfill \acceptrate{22}
 \item
   Ben Greenman \hfill \href{https://acm-rep.github.io/2023/}{ACM REP, June 2023} \\
-    \emph{GTP Benchmarks for Gradual Typing Performance} \hfill{\pct{64} accept}
+    \emph{GTP Benchmarks for Gradual Typing Performance} \hfill \acceptrate{64}
 \item
   Ben Greenman, Sam Saarinen, Tim Nelson, \hfill \href{https://2023.programming-conference.org/}{Programming 7.2, March 2023} \\
    and Shriram Krishnamurthi  \\ 
-  \emph{Little Tricky Logic: Misconceptions in the Understanding of LTL}
+    \emph{Little Tricky Logic: Misconceptions in the Understanding of LT\/L} \hfill \acceptrate{?}
 \item
   Kuang-Chen Lu, Ben Greenman, Carl Meyer, Dino Viehland, \hfill \href{https://2023.programming-conference.org/}{Programming 7.1, March 2023} \\
   Aniket Panse, and Shriram Krishnamurthi \\
-  \emph{Gradual Soundness: Lessons from Static Python}
+    \emph{Gradual Soundness: Lessons from Static Python} \hfill \acceptrate{?}
 \item
   Siddhartha Prasad, Ben Greenman, Tim Nelson, John Wrenn, \hfill \href{https://www.kolicalling.fi/}{Koli Calling 2022} \\
   and Shriram Krishnamurthi \\
-  \emph{Making Hay from Wheats: A Classsourcing Method to Identify Misconceptions}
+    \emph{Making Hay from Wheats: A Classsourcing Method to Identify Misconceptions} \hfill \acceptrate{?}
 \item
   Ben Greenman \hfill \href{https://pldi22.sigplan.org/}{PLDI 2022} \\
-  \emph{Deep and Shallow Types for Gradual Languages}
+    \emph{Deep and Shallow Types for Gradual Languages} \hfill \acceptrate{?}
 \item
   Ben Greenman, Lukas Lazarek, Christos Dimoulas, and Matthias Felleisen \hfill \href{https://2022.programming-conference.org/}{Programming 6.2, 2022} \\
-  \emph{A Transient Semantics for Typed Racket}
+    \emph{A Transient Semantics for Typed Racket} \hfill \acceptrate{?}
 \item
   Kuang-Chen Lu, Ben Greenman, and Shriram Krishnamurthi \hfill \href{https://2022.programming-conference.org/}{Programming 6.1, 2022} \\
-  \emph{Types for Tables: A Language Design Benchmark}
+    \emph{Types for Tables: A Language Design Benchmark} \hfill \acceptrate{?}
 \item
   Lukas Lazarek, Ben Greenman, Matthias Felleisen, and Christos Dimoulas \hfill \href{https://icfp21.sigplan.org/}{ICFP 2021} \\
-  \emph{How to Evaluate Blame for Gradual Types}
+  \emph{How to Evaluate Blame for Gradual Types} \hfill \acceptrate{?}
 \item
   Ben Greenman, Matthias Felleisen, and Christos Dimoulas \hfill \href{https://conf.researchr.org/track/splash-2019/splash-2019-OOPSLA}{OOPSLA 2019} \\
-  \emph{Complete Monitors for Gradual Types}
+  \emph{Complete Monitors for Gradual Types} \hfill \acceptrate{?}
 \item
   Preston Tunnell Wilson, Ben Greenman, Justin Pombrio, Shriram Krishnamurthi. \hfill \href{https://conf.researchr.org/track/dls-2018/dls-2018}{DLS 2018} \\
-  \emph{The Behavior of Gradual Types: A User Study}
+  \emph{The Behavior of Gradual Types: A User Study} \hfill \acceptrate{?}
 \item
   Daniel Feltey, Ben Greenman, Christophe Scholliers, Robert Bruce Findler, \hfill \href{https://2018.splashcon.org/track/splash-2018-OOPSLA}{OOPSLA 2018} \\
   and Vincent St. Amour. \\
-  \emph{Collapsible Contracts: Fixing a Pathology of Gradual Typing}
+  \emph{Collapsible Contracts: Fixing a Pathology of Gradual Typing} \hfill \acceptrate{?}
 \item
   Ben Greenman, Matthias Felleisen. \hfill \href{https://icfp18.sigplan.org/}{ICFP 2018} \\
-  \emph{A Spectrum of Type Soundness and Performance}
+  \emph{A Spectrum of Type Soundness and Performance} \hfill \acceptrate{?}
 \item
   Ben Greenman, Zeina Migeed. \hfill \href{https://popl18.sigplan.org/track/PEPM-2018}{PEPM 2018} \\
-  \emph{On the Cost of Type-Tag Soundness}
+  \emph{On the Cost of Type-Tag Soundness} \hfill \acceptrate{?}
 \item
   Sam Tobin-Hochstadt, Matthias Felleisen, Robert Bruce Findler, Matthew Flatt, \hfill \href{https://snapl.org/2017/}{SNAPL 2017} \\
   Ben Greenman, Andrew M. Kent, Vincent St-Amour, T. Stephen Strickland, \\
   and Asumu Takikawa. \\
-  \emph{Migratory Typing: 10 Years Later}
+  \emph{Migratory Typing: 10 Years Later} \hfill \acceptrate{?}
 \item
   Stephen Chang, Ben Greenman, and Alex Knauth. \hfill \href{https://popl17.sigplan.org/}{POPL 2017} \\
-   \emph{Type Systems as Macros}
+   \emph{Type Systems as Macros} \hfill \acceptrate{?}
 \item
   Asumu Takikawa, Daniel Feltey, Ben Greenman, Max S. New, Jan Vitek, \hfill \href{https://popl16.sigplan.org/}{POPL 2016} \\
    and Matthias Felleisen. \\
-   \emph{Is Sound Gradual Typing Dead?}
+   \emph{Is Sound Gradual Typing Dead?} \hfill \acceptrate{?}
 \item
   Ben Greenman, Fabian Muehlboeck, and Ross Tate. \hfill \href{https://conferences.inf.ed.ac.uk/pldi2014/}{PLDI 2014} \\
-  \emph{Getting F-Bounded Polymorphism into Shape}
+  \emph{Getting F-Bounded Polymorphism into Shape} \hfill \acceptrate{?}
 \end{itemize}
 
 \mysubsection{Workshop}
 \begin{itemize}
   \item
-    Dibri Nsofor$^{UU}$ and Ben Greenman \hfill \href{https://2024.splashcon.org/home/hatra-2024}{HATRA 2024} \\
+    \uust{Dibri Nsofor} and Ben Greenman \hfill \href{https://2024.splashcon.org/home/hatra-2024}{HATRA 2024} \\
       \emph{Toward a Corpus Study of the Dynamic Gradual Type}
   \item
-    Taylor Allred, Xinyi Li, Ashton Wiersdorf$^{UU}$, Ben Greenman, \hfill \href{https://juliacon.org/2023/}{JuliaCon, July 2023} \\
+    Taylor Allred, Xinyi Li, \uust{Ashton Wiersdorf}, Ben Greenman, \hfill \href{https://juliacon.org/2023/}{JuliaCon, July 2023} \\
      and Ganesh Gopalakrishnan  \\
      \emph{FlowFPX: Nimble Tools for Debugging Floating-Point Exceptions}
   \item
@@ -231,11 +231,12 @@ No external funding as of November 2024.
 \mysection{Invited Talks}
 \begin{itemize}
   \item
-    \href{https://www.cs.iastate.edu/event/2024/cs-colloquium-dr-ben-greenman}{Iowa State CS Colloqium} \hfill 2024 \\
+    \href{https://www.cs.iastate.edu/event/2024/cs-colloquium-dr-ben-greenman}{Iowa State CS Colloqium} \hfill November 2024 \\
     \emph{Toward a Science of Type System Design}
-  %\item
-  %  \href{https://www.cs.utah.edu/calendar/research-challenges-in-computing-5/}{Research Challenges in Computing @ University of Utah} \hfill 2024 \\
-  %  \emph{Rigorous Methods for Language Design}
+    \unlessrpt{
+  \item
+    \href{https://www.cs.utah.edu/calendar/research-challenges-in-computing-5/}{Research Challenges in Computing @ University of Utah} \hfill 2024 \\
+    \emph{Rigorous Methods for Language Design}}
   \item
     \href{https://plt.cs.northwestern.edu/}{PLT @ Northwestern University} \hfill September 2024 \\
     \emph{Teaching Formal Methods with Forge}
@@ -250,7 +251,7 @@ No external funding as of November 2024.
     \emph{Towards LTLf Misconceptions}
   \item
     \href{https://vardifest.github.io}{VardiFest}, \href{http://njpls.org/oct22.html}{NJPLS} \hfill 2022\\
-    \emph{Little Tricky Logic: Misconceptions in the Understanding of LTL}
+    \emph{Little Tricky Logic: Misconceptions in the Understanding of LT\/L}
   \item
     %% 2021: fun2
     %% 2022: fun3
@@ -268,32 +269,38 @@ No external funding as of November 2024.
 
 \mysection{Teaching}
 
-\noindent\begin{tabular}{lllrrr}
+\unlessrpt{\mysubsection{Utah}}
+
+\noindent\begin{tabular}{lll@{}rrr}
   & & & Enrollment & Course (Avg) & Instructor (Avg) \\
   & & & (Responded) & & \\
+  Spring 25 & CS 4470      & Compilers & \emph{TBD} \\
+            & CS 7936 & PhD. Seminar & \emph{TBD} \\
+            %% : Types, Inference, and Proof Search
   Fall   24 & \emph{N/A} & \emph{parental leave} \\
   Spring 24 & CS 5110/6110 & Software Verification & 22 (20)  & 5.5 / 5.82 (5.18)  & 6 / 5.68 (5.21) \\
   Fall   23 & CS 3520/6520 & Programming Languages & 159 (77) & 5.32 / 5.82 (5.12) & 5.45 / 5.68 (5.19) \\
 \end{tabular}
 
+\unlessrpt{
+  \mysubsection{Brown}
 
-% \begin{itemize}
-%     %% TODO curry--howard
-%     %% https://docs.google.com/document/d/1rxVrJ8WqHdhvbeeuYraZuLJVKnHC10MFeq8-b_h3jbg
-%   \item \tainfo{Instructor}{CS 5110/6110: Software Verification}{\href{https://utah.instructure.com/courses/934118}{Spring 2024}}
-%     \\ 22 students
-%     \\ Course evals (16 responses): overall effective course: 5.06, effective instructor: 5.38
-%     %% spring 2024 average 5.17 / 5.19
-%   \item \tainfo{Co-Instructor with Matthew Flatt}{CS 3520/6520: Programming Languages}{\href{https://my.eng.utah.edu/~cs3520/}{Fall 2023}}
-%     \\ 159 students
-%     \\ Course evals (55 responses): overall effective course: 5.32, effective instructor: 5.45
-%     %% fall 2023 average 5.12 / 5.21
-%   \item \tainfo{Organizer}{Topics in PL and Systems: Tables and Humans}{\href{http://cs.brown.edu/courses/csci2950-x/2021/}{2021}}
-%   \item \tainfo{Teaching Assistant}{Software Development}{\href{http://www.ccs.neu.edu/home/matthias/4500-f18/index.html}{2018}, 2020}
-%   \item \tainfo{Teaching Assistant}{Fundamentals I}{\href{https://course.ccs.neu.edu/cs2500f16/}{2016}}
-%   \item \tainfo{Teaching Assistant}{Object-Oriented Design}{\href{https://course.ccs.neu.edu/cs3500sp16/}{2016}}
-%   \item \tainfo{Teaching Assistant}{Functional Programming and Data Structures}{\datespan{\href{http://www.cs.cornell.edu/courses/cs3110/2012sp/}{2012}}{2014}}
-% \end{itemize}
+\begin{itemize}
+  \item \tainfo{Seminar Organizer \& Scribe}{Topics in PL and Systems: Tables and Humans}{\href{http://cs.brown.edu/courses/csci2950-x/2021/}{2021}}
+\end{itemize}
+
+\mysubsection{Northeastern}
+\begin{itemize}
+  \item \tainfo{Teaching Assistant}{Software Development}{\href{http://www.ccs.neu.edu/home/matthias/4500-f18/index.html}{2018}, 2020}
+  \item \tainfo{Teaching Assistant}{Fundamentals I}{\href{https://course.ccs.neu.edu/cs2500f16/}{2016}}
+  \item \tainfo{Teaching Assistant}{Object-Oriented Design}{\href{https://course.ccs.neu.edu/cs3500sp16/}{2016}}
+\end{itemize}
+
+\mysubsection{Cornell}
+\begin{itemize}
+  \item \tainfo{Teaching Assistant}{Functional Programming and Data Structures}{\datespan{\href{http://www.cs.cornell.edu/courses/cs3110/2012sp/}{2012}}{2014}}
+\end{itemize}
+}
 
 
 \mysection{Advising}
@@ -304,7 +311,7 @@ No external funding as of November 2024.
 
 \begin{itemize}
   \item Ashton Wiersdorf, started Fall 2023
-    \\ \emph{joined U. Utah Fall 2022}
+    \whenrpt{\\ \emph{joined U. Utah Fall 2022}}
   \item Dibri Nsofor, started Fall 2023
   \item Dominic Kennedy, started Fall 2024
   \item Hanwen Guo, started Fall 2024
@@ -321,6 +328,24 @@ No external funding as of November 2024.
   \item Zhaofeng Li, Ph.D, advisor Anton Burtsev
   \item Sara Nurollahian, Ph.D, advisor Eliane Wiese
 \end{itemize}
+
+\unlessrpt{
+  \mysubsection{Informal Mentees}
+
+\noindent\begin{tabular}{lllr}
+  {Vivaan Rajesh} & & {Hillcrest High School} & {\datespan{2023}{2024}} \\
+  {Siddhartha Prasad} & {Ph.D.} & {Brown University} & {\datespan{2022}{ongoing}} \\
+  {Rob Durst} & & & Fall 2023 \\
+  {Caspar Popova} & & & Spring -- Fall 2023 \\
+    %% https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2023/undergraduate-alum-caspar-popova-receives-a-csgrad4us-fellowship.html
+  {Aniket Karna} & {M.S.} & {University of Utah} & Fall 2023 \\ %% 2 months in Fall
+  {Taylor Allred} & {M.S.} & {University of Utah} & {\datespan{2022}{2023}} \\
+  {Qianfan Chen} & {Sc.B.} & {Brown University} [\href{https://cs.brown.edu/research/pubs/theses/ugrad/2022/chen.qianfan.pdf}{thesis}] & {\datespan{2021}{2022}} \\
+  {Kuang-Chen Lu} & {Ph.D.} & {Brown University} & {\datespan{2021}{2022}} \\
+  {Milo Davis} & {B.S.} & {Northeastern University} & {2017} \\
+  {Zeina Migeed} & {B.S.} & {Northeastern University} & {\datespan{2016}{2017}}
+\end{tabular}
+}
 
 \mysection{Department, College, and University Service}
 
@@ -380,9 +405,11 @@ No external funding as of November 2024.
 % 2024 hiring - 8 talks: kenneth marino, maria antoniak, peter west, nils lucas, fnu suya, noelle brown, rohan roy, keshang wu
 %               6 1-1  : neal patwari, saeid tizpaz-niari, rohan roy, keshang wu, (2nd) kenneth marino, (2nd) guanhong tao
 % 2024-08-20 - website feedback to Women CS club
-% 2024-08-26 - presentation cs3020 research forum
+% 2024-08-26 - cs3020 research forum, presentation
 % 2024-09-?? - Bei panel, getting a job in academia
 % 2024-11-04 - CS1960 office hours, study habits, time management
+% 2024-11-14 - Galois visit, organizer
+% 2024-11-18 - cs3520 substitute, for mflatt to do mu zhang teaching eval
 
 % declined PC: PLDI 2024, OOPSLA 2022, PLDI 2020, PLDI 2019(really?!)
 % declined minor PC: HATRA 2021, DLS 2021
@@ -405,14 +432,15 @@ No external funding as of November 2024.
 \end{itemize}
 
 
-%\mysection{Biography}
-%
-%Ben Greenman is an assistant professor in the Kahlert School of Computing at
-%the University of Utah. He earned his Ph.D. from Northeastern University in
-%2020 and was a CIFellows 2020 postdoc at Brown University. His research focus
-%is the science of language design. His team develops methods to measure
-%performance, prove guarantees, and understand human factors for languages and
-%systems.
+\unlessrpt{
+\mysection{Biography}
 
+Ben Greenman is an assistant professor in the Kahlert School of Computing at
+the University of Utah. He earned his Ph.D. from Northeastern University in
+2020 and was a CIFellows 2020 postdoc at Brown University. His research focus
+is the science of language design. His team develops methods to measure
+performance, prove guarantees, and understand human factors for languages and
+systems.
+}
 
 \end{document}
