@@ -17,6 +17,8 @@ shortcv:
 procv:
 	xelatex procv.tex
 
+full: procv
+
 rptcv:
 	xelatex rptcv.tex
 
