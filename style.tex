@@ -39,7 +39,7 @@
 \newcommand{\whenrpt}[1]{\ifrpt{#1}{}}
 \newcommand{\unlessrpt}[1]{\ifrpt{}{#1}}
 
-\newcommand{\uust}[1]{#1\whenrpt{$\,^{UU}$}}
+\newcommand{\uust}[1]{\ifrpt{\textbf{#1}}{#1}}
 \newcommand{\acceptrate}[1]{\whenrpt{\emph{\pct{#1} accept}}}
 
 \newcommand{\interestpar}[2]{\noindent\emph{#1}\/: #2}
